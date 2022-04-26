@@ -176,11 +176,11 @@
 } 
 
 #quote-section .left-section .text-arrow{
-    padding-right:15px;
+    padding-right:8px;
     margin-left:38px;
 }
 .arrow{
-    padding-top: 2px;
+    padding-top: 8px;
 }
 
 /* #process-section{
@@ -283,6 +283,10 @@
     text-decoration:none;
     color:black;
     display:flex;
+}
+
+.text-arrow p{
+    padding-right:8px;
 }
 
 .text-arrow{
@@ -436,18 +440,23 @@
     width:40%;
     background:#ff6433;
     height:500px;
+    padding-left: 50px;;
 }
 
-#tools-section .orange-section .orange-text h3{
-    font-size:32px;
+#tools-section .orange-section .orange-text{
     color:#fff;
-    width:60%
 }
 
-#tools-section .orange-section .orange-holder{
+#tools-section .orange-section .orange-text p{
+    font-size:48px;
+    padding-top:80px;
+    padding-right:50px;
+}
+
+/* #tools-section .orange-section .orange-holder{
     display:flex;
     justify-content:center;
-}
+} */
 
 #tools-section .engine-section{
     width:40%;
@@ -455,6 +464,21 @@
     background: url(../img/engine.png) no-repeat center;
     background-size:cover;
     background-position:right;
+}
+
+.black-btn{
+    background: black;
+    border-radius:12px;
+    padding:16px 40px;
+    text-decoration:none;
+    font-size:18px;
+    margin-top:35px;
+    display:inline-block;
+    color:#fff;
+}
+
+#rating-section {
+    background: #E2E6E9;
 }
 
 #brand-section .brand-title{
