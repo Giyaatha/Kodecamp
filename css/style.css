@@ -7,6 +7,7 @@
 .container{
     width:80%;
     margin: 0 auto;
+
 }
 
 .main-header{
@@ -115,6 +116,7 @@
 
 #quote-section {
     background: #E2E6E9;
+    min-height:100vh;
 }
 
 #quote-section .left-section, #quote-section .right-form-section {
@@ -181,6 +183,10 @@
     padding-top: 2px;
 }
 
+/* #process-section{
+    min-height:100vh;
+} */
+
 #process-section .left-side, #process-section .right-side{
     width: 45%;
 }
@@ -188,6 +194,7 @@
 #process-section .left-side h2{
     margin-bottom: 30px;
     font-size: 58px;
+    padding-top: 20px;
 }
 
 #process-section .left-side p{
@@ -212,6 +219,7 @@
 .right-side{
     padding-top:80px;
     padding-left: 0px;
+
 }
 
 .main-holder{
@@ -236,7 +244,7 @@
     width:50%;
     margin-right:20px;
     padding-top:22px;
-    padding-left:12px;
+    padding-left:10px;
 }
 
 .text-quote #text-quote {
@@ -250,6 +258,7 @@
    
  #service-section {
     background: #E2E6E9;
+    min-height:100vh;
 }
 
 #service-section .head{
@@ -270,12 +279,16 @@
     text-align:center;
 }
 
-#service-section .flex-arrow-2 .text-arrow a{
+.text-arrow a{
     text-decoration:none;
     color:black;
-    padding-right: 8px;
-    width:50%
-    
+    display:flex;
+}
+
+.text-arrow{
+    display:flex;
+    justify-content:flex-end;
+    padding-right:210px;
 }
 
 .flex-arrow-2{
@@ -374,7 +387,7 @@
 }
 
 .box-3{
-    background:#FF6433;
+    background:white;
     width:16%;
     padding: 30px 0px 30px 54px;
     align-items:center;
@@ -394,6 +407,54 @@
     width:16%;
     padding: 30px 0px 30px 54px;
     align-items:center;
+}
+
+.bottom :hover{
+    background:#FF6433;
+    color:white;
+}
+
+.bottom-b :hover{
+    background:#FF6433;
+    color:white;
+}
+
+#tools-section{
+    height:500px;
+    display:flex;
+}
+
+#tools-section .car-section{
+    width:20%;
+    height:500px;
+    background: url(../img/backcar.png) no-repeat center;
+    background-size:cover;
+    background-position:left;
+}
+
+#tools-section .orange-section{
+    width:40%;
+    background:#ff6433;
+    height:500px;
+}
+
+#tools-section .orange-section .orange-text h3{
+    font-size:32px;
+    color:#fff;
+    width:60%
+}
+
+#tools-section .orange-section .orange-holder{
+    display:flex;
+    justify-content:center;
+}
+
+#tools-section .engine-section{
+    width:40%;
+    height:500px;
+    background: url(../img/engine.png) no-repeat center;
+    background-size:cover;
+    background-position:right;
 }
 
 #brand-section .brand-title{
