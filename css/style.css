@@ -438,15 +438,31 @@
     height:500px;
 }
 
-#tools-section .orange-section .orange-text h3{
-    font-size:32px;
+#tools-section .orange-section .orange-text p{
+    font-size:48px;
     color:#fff;
-    width:60%
 }
 
-#tools-section .orange-section .orange-holder{
+#tools-section .orange-section .orange-text a{
+    width:35%;
+}
+
+#tools-section .orange-section .orange-text{
     display:flex;
+    flex-direction:column;
     justify-content:center;
+    padding-top:80px;
+    padding-left:50px;
+}
+
+.black-btn{
+    background: black;
+    border-radius:12px;
+    padding:16px 40px;
+    text-decoration:none;
+    font-size:18px;
+    margin-top:35px;
+    color:#fff;
 }
 
 #tools-section .engine-section{
@@ -456,6 +472,32 @@
     background-size:cover;
     background-position:right;
 }
+
+#rating-section{
+    background: #E2E6E9;
+}
+
+#rating-section .ratings{
+    display:flex;
+    justify-content:center;
+    width:80%;
+}
+
+.prof{
+    padding-right:40px;
+}
+
+.exp{
+    padding-right:60px;
+}
+
+.closed{
+    margin-right:60px;
+}
+
+/* .prof .exp .closed{
+    padding-right:20px;
+} */
 
 #brand-section .brand-title{
     display: flex;
