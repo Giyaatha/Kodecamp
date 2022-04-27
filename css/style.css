@@ -443,19 +443,6 @@
     padding-left: 50px;;
 }
 
-<<<<<<< HEAD
-#tools-section .orange-section .orange-text{
-    color:#fff;
-}
-
-#tools-section .orange-section .orange-text p{
-    font-size:48px;
-    padding-top:80px;
-    padding-right:50px;
-}
-
-/* #tools-section .orange-section .orange-holder{
-=======
 #tools-section .orange-section .orange-text p{
     font-size:48px;
     color:#fff;
@@ -466,15 +453,10 @@
 }
 
 #tools-section .orange-section .orange-text{
->>>>>>> d82a5d8feda7a7514ceca41b10f6722718bee648
     display:flex;
     flex-direction:column;
     justify-content:center;
-<<<<<<< HEAD
-} */
-=======
     padding-top:80px;
-    padding-left:50px;
 }
 
 .black-btn{
@@ -486,7 +468,6 @@
     margin-top:35px;
     color:#fff;
 }
->>>>>>> d82a5d8feda7a7514ceca41b10f6722718bee648
 
 #tools-section .engine-section{
     width:40%;
@@ -496,50 +477,36 @@
     background-position:right;
 }
 
-<<<<<<< HEAD
-.black-btn{
-    background: black;
-    border-radius:12px;
-    padding:16px 40px;
-    text-decoration:none;
-    font-size:18px;
-    margin-top:35px;
-    display:inline-block;
-    color:#fff;
-}
-
-#rating-section {
-    background: #E2E6E9;
-}
-
-=======
 #rating-section{
     background: #E2E6E9;
 }
 
 #rating-section .ratings{
+    width:100%;
+    padding-left:220px;
+    padding-top:60px;
+    padding-bottom:60px;
+}
+
+#rating-section .ratings{
     display:flex;
     justify-content:center;
-    width:80%;
+    gap: 150px;
+  
 }
 
-.prof{
-    padding-right:40px;
+#rating-section .ratings p{
+    font-size: 18px;
 }
 
-.exp{
-    padding-right:60px;
+#rating-section .ratings img{
+    width: 50%;
 }
 
-.closed{
-    margin-right:60px;
+#rating-section .ratings .exp img{
+    width:40%;
 }
 
-/* .prof .exp .closed{
-    padding-right:20px;
-} */
-
->>>>>>> d82a5d8feda7a7514ceca41b10f6722718bee648
 #brand-section .brand-title{
     display: flex;
     justify-content:center;
@@ -550,4 +517,9 @@
 #brand-section .brand-list{
     display: flex;
     justify-content:center;
+}
+
+#review-section{
+    background: #f2f2f2;
+    min-height:100vh;
 }
