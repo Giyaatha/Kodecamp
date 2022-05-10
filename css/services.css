@@ -191,25 +191,37 @@
     padding: 20px;
 }
 
+#diagnostics .contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #diagnostics .left-side img {
     width: 100%;
 }
 
-#diagnostics .left-side .auto-text {
+#diagnostics .auto-text {
     width: 100%;
 }
 
 #diagnostics .flex-arrow{
     display:flex;
-    flex-direction: row;
+    justify-content: flex-start;
+
 } 
 
-#diagnostics .left-section .text-arrow{
+#diagnostics .text-arrow a{
     padding-right:8px;
     text-decoration: none;
 }
+
+#diagnostics .text-arrow {
+    padding:0;
+}
+
 #diagnostics .arrow{
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 #diagnostics .service-list{
