@@ -174,12 +174,104 @@
 #diagnostics{
     background:#F5F5F5;
     min-height: 100vh; 
-    margin-top: 60px;
+    padding: 80px;
 }
 
 #diagnostics .left-side, #diagnostics .right-side {
     width: 45%;
 }
+
+#diagnostics .auto-image{
+    background: #fff;
+    height: 658px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#diagnostics .auto-image img {
+    width: 90%;
+}
+
+#diagnostics .auto-image h3, p {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+#diagnostics .auto-image h3 {
+    font-size: 48px;
+}
+
+#diagnostics .auto-image p{
+    font-size: 24px;
+    width: 90%;
+}
+
+#diagnostics .flex-arrow{
+    display:flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+
+} 
+
+#diagnostics .text-arrow a{
+    padding-right: 8px;
+    text-decoration: none;
+    padding-left: 20px;
+  
+}
+
+#diagnostics .arrow{
+    padding-top: 2px;
+}
+
+#diagnostics .arrow img {
+    width: 70%;
+}
+
+#diagnostics .service-list{
+    background: #fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    margin-bottom: 8px;
+}
+
+.justify-between {
+    gap: 20px;
+}
+
+#diagnostics .service-heading {
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom:54px;
+}
+
+#diagnostics .service-heading .service-list:hover {
+    background: #FF6433;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+#diagnostics .diagnose {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+
+
+/* 
 
 #diagnostics .left-side {
     background: #fff;
@@ -271,7 +363,7 @@
     display: flex;
     justify-content:center;
     align-items:center;
-}
+} */
 /* #diagnostics .auto {
     background: #fff;
     width: 40%;
